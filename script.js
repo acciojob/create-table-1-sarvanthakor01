@@ -12,7 +12,7 @@ function insert_Row() {
     let cell1 = newRow.insertCell(0);
     let cell2 = newRow.insertCell(1);
 
-    cell1.innerText = "New Cell 1";
-    cell2.innerText = "New Cell 2";
+    cell1.innerText = "Row1 Cell1";
+    cell2.innerText = "Row2 Cell2";
   
 }
