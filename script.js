@@ -1,14 +1,11 @@
 function insert_Row() {
+    const table = document.getElementById("sampleTable");
+    const newRow = table.insertRow();
 
- let table = document.getElementById("sampleTable");
-let newRow = table.insertRow(0);
+    const cell1 = newRow.insertCell(0);
+    const cell2 = newRow.insertCell(1);
 
-let celli = newRow.insertCell(0);
-
-let cell2 = newRow.insertCell(1);
-
-celli.textContent = "New Celll";
-
-cell2.textContent = "New Cell2";
-
+    // ✅ Correcting the text
+    cell1.innerText = "New Cell1"; // Fix typo (if it was "New Celll")
+    cell2.innerText = "New Cell2";
 }
